@@ -26,7 +26,7 @@ Game.Map = {
   Game.TileTextures = {}
   
   function Game.Load()
-    print("Game:Chargement des textures...")
+    print("Game:Loading textures...")
     Game.TileTextures[0] = nil
     Game.TileTextures[1] = love.graphics.newImage("images/green_mountain_1.png")
     Game.TileTextures[2] = love.graphics.newImage("images/green_mountain_2.png")
@@ -36,7 +36,7 @@ Game.Map = {
     Game.TileTextures[6] = love.graphics.newImage("images/green_mountain_6.png")
     Game.TileTextures[7] = love.graphics.newImage("images/sand.png")
     Game.TileTextures[8] = love.graphics.newImage("images/door.png")
-    print("Game:Chargement des textures terminé")
+    print("Game:Finished loading textures")
   end
   
   function Game.Draw()
